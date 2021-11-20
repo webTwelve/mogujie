@@ -1,0 +1,31 @@
+/* pages/cart/cart.wxss */
+.address{
+  height: 120rpx;
+}
+.all{
+  padding: 0 15rpx;
+  display: flex;
+  align-items: center;
+}
+.footer-tool{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80rpx;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+.payment{
+  
+  height: 100%;
+  width: 180rpx;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: orangered;
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "l-address":"./childrenCpns/l-address/address",
+    "l-shop":"./childrenCpns/l-shop/l-shop"
+  },
+  "navigationBarTitleText": "购物车"
+}

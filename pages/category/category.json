@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "l-menu":"../category/childCpns/l-menu/l-menu",
+    "l-content":"../category/childCpns/l-content/l-content",
+    "l-goods":"../../components/l-goods/l-goods"
+    },
+    "navigationBarTitleText": "分类"
+}

@@ -1,0 +1,23 @@
+<view class='comment-info'>
+  <view class='header'>
+    <view>用户评价</view>
+    <view>更多 >></view>
+  </view>
+  <view class='user'>
+    <image src="{{rate.list[0].user.avatar}}"/>
+    <text>{{rate.list[0].user.uname}}</text>
+  </view>
+  <view class='comment'>
+    {{rate.list[0].content}}
+  </view>
+  <view class='other-info'>
+    <view class='time'>{{rate.list[0].created}}</view>
+    <view class='style'>{{rate.list[0].style}}</view>
+  </view>
+  <view class='picture'>
+    <block wx:for="{{rate.list[0].images}}" 
+           wx:key="index">
+      <image src="{{item}}" mode="widthFix"/>
+    </block>
+  </view>
+</view>

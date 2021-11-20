@@ -1,0 +1,11 @@
+<scroll-view enable-flex='true' class="subcategroy" scroll-y>
+  <view class="sub-wrap">
+    <block wx:for="{{sublist}}" wx:key='index'>
+      <view class="sub-item">
+        <image class="subimg" src="{{item.image}}" mode="widthFix"></image>
+        <view class="subtitle">{{item.title}}</view>
+      </view>
+    </block>
+  </view>
+  <l-goods list='{{categoryDetail}}'></l-goods>
+</scroll-view>

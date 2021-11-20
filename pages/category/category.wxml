@@ -1,0 +1,8 @@
+<!--pages/category/category.wxml-->
+<view class="wrap">
+<l-menu bind:getIndex='handleIndex' class="menu" currentIndex='{{currentIndex}}' category='{{category}}'></l-menu>
+<l-content class="content" categoryDetail='{{categoryData[currentIndex].categoryDetail}}' sublist='{{categoryData[currentIndex].subcategroy}}'></l-content>
+</view>
+
+
+

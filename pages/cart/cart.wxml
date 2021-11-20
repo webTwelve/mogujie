@@ -1,0 +1,14 @@
+<l-address class="address" bind:handleAddress='handleAddress' address='{{address}}'></l-address>
+<l-shop bind:handleRad='handleRad' cartList='{{cartList}}'></l-shop>
+<view class="footer-tool">
+  <view class="all">
+      <radio checked="{{allChecked}}"></radio>
+      <text>全选</text>
+  </view>
+  <view class="count">
+    总计：￥{{totalPrice}}
+  </view>
+  <view class="payment">
+    去结算({{totalNum}})
+  </view>
+</view>

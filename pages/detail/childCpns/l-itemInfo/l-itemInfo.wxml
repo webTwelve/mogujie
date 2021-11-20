@@ -1,0 +1,21 @@
+<view class="item-info">
+  <view class="item-title">{{list.itemInfo.title}}</view>
+  <view class="price">
+    <text class="lowPrice">{{list.itemInfo.price}}</text>
+    <text class="nowPrice">{{list.itemInfo.oldPrice}}</text>
+    <text class="discountDesc">{{list.itemInfo.discountDesc}}</text>
+  </view>
+  <view class="sell-info">
+    <block wx:for="{{getData.result.columns}}" wx:key='index'>
+      <view class="sell-item">{{item}}</view>
+    </block>
+  </view>
+  <view class="shop-info">
+    <block wx:for="{{list.shopInfo.services}}" wx:key='index'>
+      <view>
+        <image class="shop-icon" src="{{item.icon}}"></image>
+        <text class="shop-name">{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view class="detail-info">
+    <view class="header">
+      <view class='start line'></view>
+      <view class='desc'>{{list.desc}}</view>
+      <view class='end line'></view>
+    </view>
+    <view class="content">
+      <block wx:for="{{list.detailImage}}" wx:key='index'>
+        <view class="title">{{item.key}}</view>
+        <image wx:key='imgIndex'  wx:for="{{item.list}}" wx:for-index='imgIndex' wx:for-item='itemImg' mode="widthFix" src="{{itemImg}}"></image>
+      </block>
+    </view>
+  </view>

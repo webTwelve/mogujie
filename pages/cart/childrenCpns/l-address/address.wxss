@@ -1,0 +1,15 @@
+/* pages/cart/l-address/address.wxss */
+.address-btn{
+  margin-top: 30rpx;
+}
+.addressName{
+  display: flex;
+  justify-content: space-between;
+}
+.address{
+  height: 120rpx;
+  line-height: 60rpx;
+}
+.addressContent{
+  border-bottom: 2rpx solid #f55777;
+}

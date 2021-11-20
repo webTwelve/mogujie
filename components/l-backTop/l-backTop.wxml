@@ -1,0 +1,3 @@
+<view class="top-wrap" bindtap="handleBackTop">
+  <image class="top" src="/assets/images/common/top.png"></image>
+</view>

@@ -1,0 +1,10 @@
+<scroll-view scroll-y class="detail">
+  <l-swiper class="d-swiper" list='{{getData.result.itemInfo.topImages}}'></l-swiper>
+  <l-itemInfo list='{{getData.result}}'></l-itemInfo>
+  <l-shopInfo list='{{getData.result.shopInfo}}'></l-shopInfo>
+  <l-detailInfo list='{{getData.result.detailInfo}}'></l-detailInfo>
+  <l-itemParams itemParams='{{getData.result.itemParams}}'></l-itemParams>
+  <l-rate rate='{{getData.result.rate}}'></l-rate>
+  <l-goods list='{{recommend}}'></l-goods>
+</scroll-view>
+<l-buttomBar bind:AddCart='AddCart'></l-buttomBar>

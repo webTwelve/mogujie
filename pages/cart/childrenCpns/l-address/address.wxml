@@ -1,0 +1,18 @@
+<view class="address">
+  <button wx:if="{{!address.userName}}" bindtap="address" type="primary" plain class="address-btn">
+    获取收货地址
+  </button>
+  <view wx:else class="addressContent">
+    <view class="addressName">
+      <view>
+        收货人:{{address.userName}}
+      </view>
+      <view>
+        {{address.telNumber}}
+      </view>
+    </view>
+    <view class="addressCity">
+      {{address.provinceName}}{{address.cityName}}{{address.countyName}}{{address.detaiInfo}}
+    </view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "l-swiper":"../../components/l-swiper/l-swiper",
+    "l-tab-control":"../../components/l-tab-control/l-tab-control",
+    "l-recommend":"../index/childCpns/recommend/recommend",
+    "l-popular":"../index/childCpns/popular/popular",
+    "l-goods":"../../components/l-goods/l-goods",
+    "l-backTop":"../../components/l-backTop/l-backTop"
+  }
+}

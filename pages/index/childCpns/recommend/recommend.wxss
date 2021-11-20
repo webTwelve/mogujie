@@ -1,0 +1,22 @@
+.view{
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom:16rpx #eee solid;
+  padding-bottom: 40rpx;
+}
+.view-item{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.img{
+  width: 160rpx;
+  height: 160rpx;
+}
+.view-title{
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: #777;
+}

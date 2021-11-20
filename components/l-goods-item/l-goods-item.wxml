@@ -1,0 +1,10 @@
+<!--components/l-goods-item/l-goods-item.wxml-->
+<view bindtap="toDetail" data-iid="{{item.iid}}">
+  <image class="goods-img" src="{{item.show.img || item.img || item.image}}" mode="widthFix" ></image>
+  <view class="desc-info">
+      <view class="title">{{item.title}}</view>
+      <text class="price">￥{{item.price}}</text>
+      <image class="icon" src="/assets/images/common/favor.png"></image>
+      <text class="cfav">{{item.cfav}}</text>
+  </view>
+</view>

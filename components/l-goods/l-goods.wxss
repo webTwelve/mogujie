@@ -1,0 +1,10 @@
+/* components/l-goods/l-goods.wxss */
+.goods{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width: 48%;
+  position: relative;
+}

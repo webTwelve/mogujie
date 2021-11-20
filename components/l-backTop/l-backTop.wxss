@@ -1,0 +1,10 @@
+/* components/l-backTop/l-backTop.wxss */
+.top-wrap{
+  position: fixed;
+  right: 10rpx;
+  bottom: 10rpx;
+}
+.top{
+  width: 80rpx;
+  height: 80rpx;
+}

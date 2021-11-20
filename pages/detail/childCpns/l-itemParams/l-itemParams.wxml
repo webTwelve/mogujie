@@ -1,0 +1,17 @@
+<view class="itemParams">
+    <block wx:for="{{itemParams.rule.tables}}" wx:key="index">
+      <block wx:for="{{item}}" wx:for-item="tables" wx:for-index="tablesIndex" wx:key='tablesIndex'>
+        <view class="listItem">
+          <block wx:for="{{tables}}" wx:for-item="tablesitem" wx:for-index="tablesitemIndex" wx:key='tablesitemIndex'>
+            <view class="item">{{tablesitem}}</view>
+          </block>
+        </view>
+      </block>
+    </block>
+    <block wx:for="{{itemParams.info.set}}" wx:for-item="infoItem" wx:key='index'>
+    <view class="listItem">
+      <view class="item">{{infoItem.key}}</view>
+      <view class="value">{{infoItem.value}}</view>
+    </view>
+    </block>
+  </view>

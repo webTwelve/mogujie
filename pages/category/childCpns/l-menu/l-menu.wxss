@@ -1,0 +1,13 @@
+.category{
+  height: 100%;
+  background-color: #eee;
+}
+.category-item{
+  height: 100rpx;
+  line-height:100rpx;
+  text-align: center;
+}
+.menu-active{
+  border-left: 6rpx #f55777 solid;
+  background-color: #fff;
+}

@@ -1,0 +1,21 @@
+.itemParams{
+  padding:0 20rpx;
+}
+.listItem{
+  height: 80rpx;
+  border-bottom:2rpx solid rgb(243, 241, 241) ;
+  align-items: center;
+  display: flex;
+}
+.item{
+  width: 145rpx;
+  font-size: 34rpx;
+}
+.value{
+  width: 600rpx;
+  color: #f55777;
+  font-size: 34rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,8 @@
+<l-swiper list='{{banners}}'></l-swiper>
+<l-recommend recommend='{{recommend}}' bindimgLoad='handleLoad'></l-recommend>
+<l-popular></l-popular>
+<view class="control-wrap">
+  <l-tab-control id="control" class="{{isFix?'fix':''}}" list='{{list}}' bind:tabClick="handleClick" ></l-tab-control>
+</view>
+<l-goods list='{{goods[currentType].list}}'></l-goods>
+<l-backTop wx:if="{{isShow}}"></l-backTop>

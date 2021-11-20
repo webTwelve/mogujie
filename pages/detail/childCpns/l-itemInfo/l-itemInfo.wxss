@@ -1,0 +1,51 @@
+/* pages/detail/childCpns/l-itemInfo/l-itemInfo.wxss */
+.item-info{
+  padding: 10rpx;
+}
+.item-title{
+  font-size: 32rpx;
+  color: gray;
+}
+.lowPrice{
+  color: #f55777;
+  font-size: 36rpx;
+}
+.nowPrice{
+  display: inline-block;
+  padding: 0 10rpx;
+  color: gray;
+  text-decoration: line-through;
+}
+.discountDesc{
+  display: inline-block;
+  background-color: #f55777;
+  color: #fff;
+  border-radius: 10rpx;
+  font-size: 26rpx;
+  padding: 5rpx;
+}
+.sell-info{
+  padding: 20rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #ccc;
+}
+.sell-item{
+  color: gray;
+  font-size: 28rpx;
+}
+.shop-icon{
+  height: 25rpx;
+  width: 25rpx;
+}
+.shop-name{
+  font-size: 24rpx;
+  color: gray;
+}
+.shop-info{
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,8 @@
+<!--components/l-tab-control/l-tab-control.wxml-->
+<view class="tab-control">
+  <block wx:for="{{list}}" wx:key="*this">
+    <view class="boder">
+      <view bindtap="hover" data-index="{{index}}" class="control-item {{index==currindex?'active':''}}">{{item}}</view>
+    </view>
+  </block>
+</view>

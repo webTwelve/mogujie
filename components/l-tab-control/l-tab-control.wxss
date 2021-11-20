@@ -1,0 +1,17 @@
+/* components/l-tab-control/l-tab-control.wxss */
+.tab-control{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100rpx;
+  background-color: #fff;
+}
+.control-item{
+  padding: 10rpx 20rpx;
+  font-size: 36rpx;
+  border-bottom: 8rpx solid transparent;
+}
+.active{
+  color: #ff5777;
+  border-bottom: 8rpx solid #ff5777;
+}

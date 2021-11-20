@@ -1,0 +1,22 @@
+/* pages/category/childCpns/l-content/l-content.wxss */
+.sub-wrap{
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.subcategroy{
+  height: 100%;
+}
+.sub-item{
+  padding: 0 16rpx;
+  text-align: center;
+  width: 27%;
+}
+.subimg{
+  width: 100%;
+}
+.subtitle{
+  margin: 30rpx 0;
+  font-size: 30rpx;
+  color: gray;
+}

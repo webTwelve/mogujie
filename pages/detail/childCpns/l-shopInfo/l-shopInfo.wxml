@@ -1,0 +1,30 @@
+<view class="shopInfo">
+    <view class="shopName">
+    <image class="shopLogo" src="{{list.shopLogo}}"></image>
+    <text class="shoptitle">{{list.name}}</text>
+    </view>
+  <view class='sell-info'>
+    <view class='count-info sell-item'>
+      <view class='total-sell count-item'>
+        <view class='count'>{{list.cSells}}</view>
+        <view class='text'>总销量</view>
+      </view>
+      <view class='goods-count count-item'>
+        <view class='count'>{{list.cGoods}}</view>
+        <view class='text'>全部宝贝</view>
+      </view>
+    </view>
+    <view class='grade-info sell-item'>
+      <block wx:for="{{list.score}}" wx:key="index">
+        <view class='grade-row'>
+          <view class='item name'>{{item.name}}</view>
+          <view class='item score {{item.isBetter ? "good": "less"}}'>{{item.score}}</view>
+          <view class='item better {{item.isBetter ? "good": "less"}}'>{{item.isBetter ? '高' : '低'}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class='entrance'>
+    <button class="home" size='mini'>进店逛逛</button>
+  </view>
+</view>

@@ -1,0 +1,108 @@
+/* pages/detail/childCpns/l-shopInfo/l-shopInfo.wxss */
+.shopInfo{
+  padding: 0 10rpx;
+  border-top: 10rpx solid rgb(235, 231, 231);
+  border-bottom: 10rpx solid rgb(235, 231, 231);
+
+}
+.shopLogo{
+  height: 90rpx;
+  width: 90rpx;
+  border-radius: 50%;
+  border:2rpx solid #ccc;
+}
+.shoptitle{
+  font-size: 34rpx;
+  padding-left: 10rpx;
+  color: gray;
+}
+.shopName{
+  height: 180rpx;
+  display: flex;
+  align-items: center;
+}
+
+.sell-info {
+  display: flex;
+  margin: 40rpx 0;
+}
+
+.sell-item {
+  flex: 1;
+  text-align: center;
+}
+
+.count-info {
+  display: flex;
+  margin: 20rpx 0;
+  border-right: 1px solid rgba(200,200,200,.6);
+}
+
+.count-item {
+  flex: 1;
+  text-align: center;
+}
+
+.count-item .count {
+  font-size: 40rpx;
+}
+
+.count-item .text {
+  font-size: 28rpx;
+  margin-top: 16rpx;
+}
+
+.grade-info {
+  font-size: 28rpx;
+  padding: 0 20rpx;
+}
+
+.grade-row {
+  display: flex;
+}
+
+.grade-row .item {
+  margin-top: 8rpx;
+}
+
+.grade-row .name {
+  width: 200rpx;
+}
+
+.grade-row .score {
+  flex: 1;
+}
+
+.grade-row .better {
+  flex: 1;
+}
+
+.good {
+  color: #ff5777;
+}
+
+.less {
+  color: #5ea732;
+}
+.entrance {
+  text-align: center;
+}
+
+.entrance button::after {
+  border: none;
+}
+
+.entrance .home {
+  padding: 8rpx 100rpx;
+  font-weight: 500;
+  font-size: 28rpx;
+}
+.text{
+  color: gray;
+}
+.name{
+  color: gray;
+}
+.count{
+  color: gray;
+}

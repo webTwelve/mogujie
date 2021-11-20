@@ -1,0 +1,25 @@
+<scroll-view>
+  <block wx:for="{{cartList}}" wx:key="index">
+    <view class="cartItem">
+      <radio-group data-id="{{item.iid}}" bindtap="rad">
+        <radio checked="{{item.checked}}"></radio>
+      </radio-group>
+    <view class="imgWrap">
+      <image class="img" mode="heightFix" src="{{item.result.itemInfo.topImages[0]}}"></image>
+    </view>
+    <view class="content">
+      <view class="title">{{item.result.itemInfo.title}}</view>
+      <view class="desc">{{item.result.itemInfo.desc}}</view>
+      <view class="priceWrap">
+        <text class="price">￥{{item.result.itemInfo.lowNowPrice}}</text>
+        <view class="count">
+        <view class="sub">-</view>
+        <text class="number">{{item.count}}</text>
+        <view class="add">+</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  </block>
+  
+</scroll-view>
